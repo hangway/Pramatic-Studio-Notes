@@ -1,3 +1,5 @@
+# 4 players, and four formats, DRY format, write a method
+
 def movie_listing(title)
   "Movie: #{title.capitalize}"
 end
@@ -33,6 +35,7 @@ def movie_listing(title, rank=0)
   "#{title.capitalize} has a rank of
    #{rank} as of #{today}."
 end
+# Define local variable for current time
 
 puts movie_listing("Neo", 10)
 puts movie_listing("Trinity", 9)
